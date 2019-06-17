@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("3bker");
-var prefix = ".";
+var prefix = "D";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "la")) {
@@ -27,4 +27,4 @@ client.user.setGame(`!bc |Zero |server`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(NTkwMTgyMjY4NDQyNjQwNDEz.XQegFg.kAg3FF4Xw5JidkcTO_PdgZ3PmAE);
